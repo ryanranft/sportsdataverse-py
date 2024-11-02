@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/sportsdataverse-py" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sportsdataverse-py/sportsdataverse-py" vcs="Git" />
   </component>
 </project>
