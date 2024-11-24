@@ -19,7 +19,7 @@ Actions:
       Sources:
         - WorkflowSource # This specifies that the action requires this Workflow as a source
     Compute:
-      Type: Lambda # Defines the action's properties.
+      Type: EC2
     Configuration:
       Region: us-east-1
   AWSCDKDeploy_e6:
@@ -34,7 +34,7 @@ Actions:
       Sources:
         - WorkflowSource # This specifies that the action requires this Workflow as a source
     Compute:
-      Type: Lambda # Defines the action's properties.
+      Type: EC2
     Configuration:
       StackName: test1
     DependsOn:
