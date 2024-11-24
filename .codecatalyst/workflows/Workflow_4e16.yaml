@@ -1,0 +1,41 @@
+Name: Workflow_4e16
+SchemaVersion: "1.0"
+
+# Optional - Set automatic triggers.
+Triggers:
+  - Type: PUSH
+    Branches:
+      - main
+Actions:
+  AWSCDKBootstrap_1d:
+    # Identifies the action. Do not modify this value.
+    Identifier: aws/cdk-bootstrap@v2.0.1
+    # Required; You can use an environment to access AWS resources.
+    Environment:
+      Name: test
+    # Specifies the source and/or artifacts to pass to the action as input.
+    Inputs:
+      # Optional
+      Sources:
+        - WorkflowSource # This specifies that the action requires this Workflow as a source
+    Compute:
+      Type: Lambda # Defines the action's properties.
+    Configuration:
+      Region: us-east-1
+  AWSCDKDeploy_e6:
+    # Identifies the action. Do not modify this value.
+    Identifier: aws/cdk-deploy@v2.0.2
+    # Required; You can use an environment to access AWS resources.
+    Environment:
+      Name: test
+    # Specifies the source and/or artifacts to pass to the action as input.
+    Inputs:
+      # Optional
+      Sources:
+        - WorkflowSource # This specifies that the action requires this Workflow as a source
+    Compute:
+      Type: Lambda # Defines the action's properties.
+    Configuration:
+      StackName: test1
+    DependsOn:
+      - AWSCDKBootstrap_1d
