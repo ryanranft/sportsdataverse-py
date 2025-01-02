@@ -1,0 +1,1547 @@
+2025-01-01 18:50:37,173 - __main__ - INFO - AWS session created and validated successfully
+2025-01-01 18:50:37,173 - __main__ - INFO - Starting NFL data collection
+2025-01-01 18:50:37,173 - __main__ - INFO - Collecting data for: nfl_teams
+2025-01-01 18:50:37,311 - nfl_loaders - ERROR - Missing required columns: {'team'}
+2025-01-01 18:50:37,311 - nfl_loaders - ERROR - Invalid team data structure
+2025-01-01 18:50:37,312 - __main__ - WARNING - Empty DataFrame for nfl_teams
+2025-01-01 18:50:37,312 - __main__ - INFO - Collecting data for: nfl_players
+2025-01-01 18:50:37,312 - nfl_loaders - ERROR - Error loading player data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,312 - __main__ - WARNING - Empty DataFrame for nfl_players
+2025-01-01 18:50:37,312 - __main__ - INFO - Collecting data for: nfl_contracts
+2025-01-01 18:50:37,312 - nfl_loaders - ERROR - Error loading contract data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,312 - __main__ - WARNING - Empty DataFrame for nfl_contracts
+2025-01-01 18:50:37,312 - __main__ - INFO - Collecting data for: nfl_combine
+2025-01-01 18:50:37,312 - nfl_loaders - ERROR - Error loading combine data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,313 - __main__ - WARNING - Empty DataFrame for nfl_combine
+2025-01-01 18:50:37,313 - __main__ - INFO - Collecting data for: nfl_draft_picks
+2025-01-01 18:50:37,313 - nfl_loaders - ERROR - Error loading draft picks data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,313 - __main__ - WARNING - Empty DataFrame for nfl_draft_picks
+2025-01-01 18:50:37,313 - __main__ - INFO - Collecting data for: nfl_officials
+2025-01-01 18:50:37,313 - nfl_loaders - ERROR - Error loading officials data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,313 - __main__ - WARNING - Empty DataFrame for nfl_officials
+2025-01-01 18:50:37,313 - __main__ - INFO - Collecting data for: nfl_player_stats
+2025-01-01 18:50:37,313 - nfl_loaders - ERROR - Error loading player stats: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,313 - __main__ - WARNING - Empty DataFrame for nfl_player_stats
+2025-01-01 18:50:37,313 - __main__ - INFO - Collecting data for: nfl_ngs_passing
+2025-01-01 18:50:37,313 - nfl_loaders - ERROR - Error loading NGS passing data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,314 - __main__ - WARNING - Empty DataFrame for nfl_ngs_passing
+2025-01-01 18:50:37,314 - __main__ - INFO - Collecting data for: nfl_ngs_rushing
+2025-01-01 18:50:37,314 - nfl_loaders - ERROR - Error loading NGS rushing data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,314 - __main__ - WARNING - Empty DataFrame for nfl_ngs_rushing
+2025-01-01 18:50:37,314 - __main__ - INFO - Collecting data for: nfl_ngs_receiving
+2025-01-01 18:50:37,314 - nfl_loaders - ERROR - Error loading NGS receiving data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,314 - __main__ - WARNING - Empty DataFrame for nfl_ngs_receiving
+2025-01-01 18:50:37,314 - __main__ - INFO - Collecting data for: nfl_pfr_pass
+2025-01-01 18:50:37,314 - nfl_loaders - ERROR - Error loading PFR passing data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,314 - __main__ - WARNING - Empty DataFrame for nfl_pfr_pass
+2025-01-01 18:50:37,314 - __main__ - INFO - Collecting data for: nfl_pfr_rush
+2025-01-01 18:50:37,314 - nfl_loaders - ERROR - Error loading PFR rushing data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,314 - __main__ - WARNING - Empty DataFrame for nfl_pfr_rush
+2025-01-01 18:50:37,314 - __main__ - INFO - Collecting data for: nfl_pfr_rec
+2025-01-01 18:50:37,314 - nfl_loaders - ERROR - Error loading PFR receiving data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,314 - __main__ - WARNING - Empty DataFrame for nfl_pfr_rec
+2025-01-01 18:50:37,315 - __main__ - INFO - Collecting data for: nfl_pfr_def
+2025-01-01 18:50:37,315 - nfl_loaders - ERROR - Error loading PFR defensive data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,315 - __main__ - WARNING - Empty DataFrame for nfl_pfr_def
+2025-01-01 18:50:37,315 - __main__ - INFO - Collecting data for: nfl_pbp
+2025-01-01 18:50:37,327 - nfl_loaders - ERROR - Error processing season 1999: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,328 - nfl_loaders - ERROR - Error processing season 2000: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,328 - nfl_loaders - ERROR - Error processing season 2001: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,328 - nfl_loaders - ERROR - Error processing season 2002: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,328 - nfl_loaders - ERROR - Error processing season 2003: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,328 - nfl_loaders - ERROR - Error processing season 2004: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,328 - nfl_loaders - ERROR - Error processing season 2005: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,328 - nfl_loaders - ERROR - Error processing season 2006: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,328 - nfl_loaders - ERROR - Error processing season 2007: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2008: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2009: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2010: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2011: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2012: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2013: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2014: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2015: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2016: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2017: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,330 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,331 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,331 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,331 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,331 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,331 - nfl_loaders - WARNING - No data collected for any season
+2025-01-01 18:50:37,331 - __main__ - WARNING - Empty DataFrame for nfl_pbp
+2025-01-01 18:50:37,331 - __main__ - INFO - Collecting data for: nfl_weekly_rosters
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2002 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2003 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2004 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2005 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2006 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2007 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2008 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2009 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2010 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2011 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2012 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2013 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2014 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2015 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,332 - nfl_loaders - ERROR - Error processing season 2016 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,333 - nfl_loaders - ERROR - Error processing season 2017 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,333 - nfl_loaders - ERROR - Error processing season 2018 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,333 - nfl_loaders - ERROR - Error processing season 2019 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,333 - nfl_loaders - ERROR - Error processing season 2020 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,333 - nfl_loaders - ERROR - Error processing season 2021 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,333 - nfl_loaders - ERROR - Error processing season 2022 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,333 - nfl_loaders - ERROR - Error processing season 2023 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,333 - nfl_loaders - ERROR - Error processing season 2024 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,333 - nfl_loaders - ERROR - Error processing season 2025 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,333 - nfl_loaders - WARNING - No weekly roster data collected
+2025-01-01 18:50:37,333 - __main__ - WARNING - Empty DataFrame for nfl_weekly_rosters
+2025-01-01 18:50:37,333 - __main__ - INFO - Collecting data for: nfl_schedule
+2025-01-01 18:50:37,333 - nfl_loaders - WARNING - Parquet read failed for 1999, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,512 - nfl_loaders - WARNING - Parquet read failed for 2000, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,692 - nfl_loaders - WARNING - Parquet read failed for 2001, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:37,841 - nfl_loaders - WARNING - Parquet read failed for 2002, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:38,044 - nfl_loaders - WARNING - Parquet read failed for 2003, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:38,202 - nfl_loaders - WARNING - Parquet read failed for 2004, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:38,349 - nfl_loaders - WARNING - Parquet read failed for 2005, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:38,520 - nfl_loaders - WARNING - Parquet read failed for 2006, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:38,653 - nfl_loaders - WARNING - Parquet read failed for 2007, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:38,804 - nfl_loaders - WARNING - Parquet read failed for 2008, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:38,960 - nfl_loaders - WARNING - Parquet read failed for 2009, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:39,125 - nfl_loaders - WARNING - Parquet read failed for 2010, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:39,285 - nfl_loaders - WARNING - Parquet read failed for 2011, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:39,479 - nfl_loaders - WARNING - Parquet read failed for 2012, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:39,648 - nfl_loaders - WARNING - Parquet read failed for 2013, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:39,801 - nfl_loaders - WARNING - Parquet read failed for 2014, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:40,022 - nfl_loaders - WARNING - Parquet read failed for 2015, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:40,173 - nfl_loaders - WARNING - Parquet read failed for 2016, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:40,323 - nfl_loaders - WARNING - Parquet read failed for 2017, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:40,476 - nfl_loaders - WARNING - Parquet read failed for 2018, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:40,625 - nfl_loaders - WARNING - Parquet read failed for 2019, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:40,818 - nfl_loaders - WARNING - Parquet read failed for 2020, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:40,988 - nfl_loaders - WARNING - Parquet read failed for 2021, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:41,143 - nfl_loaders - WARNING - Parquet read failed for 2022, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:41,276 - nfl_loaders - WARNING - No schedule data found for season 2022
+2025-01-01 18:50:41,279 - nfl_loaders - WARNING - Parquet read failed for 2023, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:41,438 - nfl_loaders - WARNING - No schedule data found for season 2023
+2025-01-01 18:50:41,441 - nfl_loaders - WARNING - Parquet read failed for 2024, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:41,588 - nfl_loaders - WARNING - No schedule data found for season 2024
+2025-01-01 18:50:41,592 - nfl_loaders - WARNING - Parquet read failed for 2025, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:50:41,726 - nfl_loaders - WARNING - No schedule data found for season 2025
+2025-01-01 18:50:41,742 - __main__ - INFO - Saved 6137 rows locally at /Users/ryanranft/0/sportsdataverse/sportsdataverse-py/raw_data/nfl/nfl_schedule/nfl_schedule_20250101_185041.parquet
+2025-01-01 18:50:42,531 - __main__ - INFO - Successfully uploaded 6137 rows to s3://sportsdataverse/raw_data/nfl/nfl_schedule/nfl_schedule_20250101_185041.parquet
+2025-01-01 18:50:42,532 - __main__ - INFO - Collecting data for: nfl_rosters
+2025-01-01 18:50:42,973 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:42,974 - nfl_loaders - WARNING - Skipping invalid data for season 1920
+2025-01-01 18:50:43,356 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:43,356 - nfl_loaders - WARNING - Skipping invalid data for season 1921
+2025-01-01 18:50:43,742 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:43,742 - nfl_loaders - WARNING - Skipping invalid data for season 1922
+2025-01-01 18:50:44,141 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:44,141 - nfl_loaders - WARNING - Skipping invalid data for season 1923
+2025-01-01 18:50:44,540 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:44,540 - nfl_loaders - WARNING - Skipping invalid data for season 1924
+2025-01-01 18:50:45,174 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:45,174 - nfl_loaders - WARNING - Skipping invalid data for season 1925
+2025-01-01 18:50:45,598 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:45,599 - nfl_loaders - WARNING - Skipping invalid data for season 1926
+2025-01-01 18:50:46,027 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:46,028 - nfl_loaders - WARNING - Skipping invalid data for season 1927
+2025-01-01 18:50:46,427 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:46,427 - nfl_loaders - WARNING - Skipping invalid data for season 1928
+2025-01-01 18:50:47,172 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:47,172 - nfl_loaders - WARNING - Skipping invalid data for season 1929
+2025-01-01 18:50:47,558 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:47,558 - nfl_loaders - WARNING - Skipping invalid data for season 1930
+2025-01-01 18:50:47,952 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:47,953 - nfl_loaders - WARNING - Skipping invalid data for season 1931
+2025-01-01 18:50:48,383 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:48,383 - nfl_loaders - WARNING - Skipping invalid data for season 1932
+2025-01-01 18:50:48,825 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:48,825 - nfl_loaders - WARNING - Skipping invalid data for season 1933
+2025-01-01 18:50:49,201 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:49,201 - nfl_loaders - WARNING - Skipping invalid data for season 1934
+2025-01-01 18:50:49,581 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:49,582 - nfl_loaders - WARNING - Skipping invalid data for season 1935
+2025-01-01 18:50:49,992 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:49,993 - nfl_loaders - WARNING - Skipping invalid data for season 1936
+2025-01-01 18:50:50,363 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:50,363 - nfl_loaders - WARNING - Skipping invalid data for season 1937
+2025-01-01 18:50:50,768 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:50,768 - nfl_loaders - WARNING - Skipping invalid data for season 1938
+2025-01-01 18:50:51,159 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:51,160 - nfl_loaders - WARNING - Skipping invalid data for season 1939
+2025-01-01 18:50:51,547 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:51,548 - nfl_loaders - WARNING - Skipping invalid data for season 1940
+2025-01-01 18:50:52,260 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:52,260 - nfl_loaders - WARNING - Skipping invalid data for season 1941
+2025-01-01 18:50:52,645 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:52,646 - nfl_loaders - WARNING - Skipping invalid data for season 1942
+2025-01-01 18:50:53,049 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:53,049 - nfl_loaders - WARNING - Skipping invalid data for season 1943
+2025-01-01 18:50:53,432 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:53,432 - nfl_loaders - WARNING - Skipping invalid data for season 1944
+2025-01-01 18:50:53,846 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:53,846 - nfl_loaders - WARNING - Skipping invalid data for season 1945
+2025-01-01 18:50:54,243 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:54,243 - nfl_loaders - WARNING - Skipping invalid data for season 1946
+2025-01-01 18:50:54,650 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:54,651 - nfl_loaders - WARNING - Skipping invalid data for season 1947
+2025-01-01 18:50:55,078 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:55,078 - nfl_loaders - WARNING - Skipping invalid data for season 1948
+2025-01-01 18:50:55,490 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:55,490 - nfl_loaders - WARNING - Skipping invalid data for season 1949
+2025-01-01 18:50:55,845 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:55,846 - nfl_loaders - WARNING - Skipping invalid data for season 1950
+2025-01-01 18:50:56,205 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:56,205 - nfl_loaders - WARNING - Skipping invalid data for season 1951
+2025-01-01 18:50:56,836 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:56,836 - nfl_loaders - WARNING - Skipping invalid data for season 1952
+2025-01-01 18:50:57,256 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:57,257 - nfl_loaders - WARNING - Skipping invalid data for season 1953
+2025-01-01 18:50:57,685 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:57,685 - nfl_loaders - WARNING - Skipping invalid data for season 1954
+2025-01-01 18:50:58,066 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:58,066 - nfl_loaders - WARNING - Skipping invalid data for season 1955
+2025-01-01 18:50:58,407 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:58,407 - nfl_loaders - WARNING - Skipping invalid data for season 1956
+2025-01-01 18:50:58,793 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:58,793 - nfl_loaders - WARNING - Skipping invalid data for season 1957
+2025-01-01 18:50:59,164 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:59,164 - nfl_loaders - WARNING - Skipping invalid data for season 1958
+2025-01-01 18:50:59,569 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:59,569 - nfl_loaders - WARNING - Skipping invalid data for season 1959
+2025-01-01 18:50:59,952 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:50:59,952 - nfl_loaders - WARNING - Skipping invalid data for season 1960
+2025-01-01 18:51:00,352 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:00,353 - nfl_loaders - WARNING - Skipping invalid data for season 1961
+2025-01-01 18:51:00,739 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:00,740 - nfl_loaders - WARNING - Skipping invalid data for season 1962
+2025-01-01 18:51:01,174 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:01,174 - nfl_loaders - WARNING - Skipping invalid data for season 1963
+2025-01-01 18:51:01,642 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:01,642 - nfl_loaders - WARNING - Skipping invalid data for season 1964
+2025-01-01 18:51:02,047 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:02,047 - nfl_loaders - WARNING - Skipping invalid data for season 1965
+2025-01-01 18:51:02,459 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:02,459 - nfl_loaders - WARNING - Skipping invalid data for season 1966
+2025-01-01 18:51:02,840 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:02,841 - nfl_loaders - WARNING - Skipping invalid data for season 1967
+2025-01-01 18:51:03,230 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:03,231 - nfl_loaders - WARNING - Skipping invalid data for season 1968
+2025-01-01 18:51:03,644 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:03,645 - nfl_loaders - WARNING - Skipping invalid data for season 1969
+2025-01-01 18:51:04,051 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:04,051 - nfl_loaders - WARNING - Skipping invalid data for season 1970
+2025-01-01 18:51:04,456 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:04,456 - nfl_loaders - WARNING - Skipping invalid data for season 1971
+2025-01-01 18:51:04,882 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:04,882 - nfl_loaders - WARNING - Skipping invalid data for season 1972
+2025-01-01 18:51:05,297 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:05,297 - nfl_loaders - WARNING - Skipping invalid data for season 1973
+2025-01-01 18:51:05,683 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:05,684 - nfl_loaders - WARNING - Skipping invalid data for season 1974
+2025-01-01 18:51:06,115 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:06,115 - nfl_loaders - WARNING - Skipping invalid data for season 1975
+2025-01-01 18:51:06,496 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:06,496 - nfl_loaders - WARNING - Skipping invalid data for season 1976
+2025-01-01 18:51:07,207 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:07,207 - nfl_loaders - WARNING - Skipping invalid data for season 1977
+2025-01-01 18:51:08,088 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:08,089 - nfl_loaders - WARNING - Skipping invalid data for season 1978
+2025-01-01 18:51:08,519 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:08,520 - nfl_loaders - WARNING - Skipping invalid data for season 1979
+2025-01-01 18:51:08,904 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:08,904 - nfl_loaders - WARNING - Skipping invalid data for season 1980
+2025-01-01 18:51:09,609 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:09,609 - nfl_loaders - WARNING - Skipping invalid data for season 1981
+2025-01-01 18:51:10,317 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:10,317 - nfl_loaders - WARNING - Skipping invalid data for season 1982
+2025-01-01 18:51:10,729 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:10,729 - nfl_loaders - WARNING - Skipping invalid data for season 1983
+2025-01-01 18:51:11,135 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:11,135 - nfl_loaders - WARNING - Skipping invalid data for season 1984
+2025-01-01 18:51:11,559 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:11,559 - nfl_loaders - WARNING - Skipping invalid data for season 1985
+2025-01-01 18:51:12,036 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:12,037 - nfl_loaders - WARNING - Skipping invalid data for season 1986
+2025-01-01 18:51:12,471 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:12,471 - nfl_loaders - WARNING - Skipping invalid data for season 1987
+2025-01-01 18:51:12,907 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:12,907 - nfl_loaders - WARNING - Skipping invalid data for season 1988
+2025-01-01 18:51:13,321 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:13,321 - nfl_loaders - WARNING - Skipping invalid data for season 1989
+2025-01-01 18:51:13,787 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:13,787 - nfl_loaders - WARNING - Skipping invalid data for season 1990
+2025-01-01 18:51:14,234 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:14,234 - nfl_loaders - WARNING - Skipping invalid data for season 1991
+2025-01-01 18:51:14,711 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:14,712 - nfl_loaders - WARNING - Skipping invalid data for season 1992
+2025-01-01 18:51:15,272 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:15,272 - nfl_loaders - WARNING - Skipping invalid data for season 1993
+2025-01-01 18:51:15,680 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:15,680 - nfl_loaders - WARNING - Skipping invalid data for season 1994
+2025-01-01 18:51:16,416 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:16,416 - nfl_loaders - WARNING - Skipping invalid data for season 1995
+2025-01-01 18:51:16,869 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:16,869 - nfl_loaders - WARNING - Skipping invalid data for season 1996
+2025-01-01 18:51:17,291 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:17,291 - nfl_loaders - WARNING - Skipping invalid data for season 1997
+2025-01-01 18:51:17,869 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:17,870 - nfl_loaders - WARNING - Skipping invalid data for season 1998
+2025-01-01 18:51:18,311 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:18,312 - nfl_loaders - WARNING - Skipping invalid data for season 1999
+2025-01-01 18:51:18,819 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:18,820 - nfl_loaders - WARNING - Skipping invalid data for season 2000
+2025-01-01 18:51:19,224 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:19,224 - nfl_loaders - WARNING - Skipping invalid data for season 2001
+2025-01-01 18:51:19,666 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:19,667 - nfl_loaders - WARNING - Skipping invalid data for season 2002
+2025-01-01 18:51:20,111 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:20,111 - nfl_loaders - WARNING - Skipping invalid data for season 2003
+2025-01-01 18:51:20,532 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:20,532 - nfl_loaders - WARNING - Skipping invalid data for season 2004
+2025-01-01 18:51:20,956 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:20,956 - nfl_loaders - WARNING - Skipping invalid data for season 2005
+2025-01-01 18:51:21,398 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:21,399 - nfl_loaders - WARNING - Skipping invalid data for season 2006
+2025-01-01 18:51:21,834 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:21,834 - nfl_loaders - WARNING - Skipping invalid data for season 2007
+2025-01-01 18:51:22,248 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:22,248 - nfl_loaders - WARNING - Skipping invalid data for season 2008
+2025-01-01 18:51:22,688 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:22,689 - nfl_loaders - WARNING - Skipping invalid data for season 2009
+2025-01-01 18:51:23,151 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:23,152 - nfl_loaders - WARNING - Skipping invalid data for season 2010
+2025-01-01 18:51:23,621 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:23,621 - nfl_loaders - WARNING - Skipping invalid data for season 2011
+2025-01-01 18:51:24,056 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:24,056 - nfl_loaders - WARNING - Skipping invalid data for season 2012
+2025-01-01 18:51:24,475 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:24,476 - nfl_loaders - WARNING - Skipping invalid data for season 2013
+2025-01-01 18:51:24,977 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:24,978 - nfl_loaders - WARNING - Skipping invalid data for season 2014
+2025-01-01 18:51:25,434 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:25,435 - nfl_loaders - WARNING - Skipping invalid data for season 2015
+2025-01-01 18:51:25,852 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:25,852 - nfl_loaders - WARNING - Skipping invalid data for season 2016
+2025-01-01 18:51:26,312 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:26,313 - nfl_loaders - WARNING - Skipping invalid data for season 2017
+2025-01-01 18:51:26,770 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:26,770 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 18:51:27,195 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:27,195 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 18:51:27,631 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:27,631 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 18:51:28,086 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:28,086 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 18:51:28,540 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:28,540 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 18:51:29,008 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:29,008 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 18:51:29,467 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:51:29,468 - nfl_loaders - WARNING - Skipping invalid data for season 2024
+2025-01-01 18:51:29,684 - nfl_loaders - ERROR - Error processing season 2025: HTTP Error 404: Not Found
+2025-01-01 18:51:29,689 - nfl_loaders - WARNING - No roster data collected
+2025-01-01 18:51:29,689 - __main__ - WARNING - Empty DataFrame for nfl_rosters
+2025-01-01 18:51:29,689 - __main__ - INFO - Collecting data for: nfl_snap_counts
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2012: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2013: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2014: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2015: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2016: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2017: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,690 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,691 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,691 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,691 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,691 - nfl_loaders - WARNING - No snap count data collected
+2025-01-01 18:51:29,691 - __main__ - WARNING - Empty DataFrame for nfl_snap_counts
+2025-01-01 18:51:29,691 - __main__ - INFO - Collecting data for: nfl_injuries
+2025-01-01 18:51:29,692 - nfl_loaders - ERROR - Error processing season 2009 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,692 - nfl_loaders - ERROR - Error processing season 2010 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,692 - nfl_loaders - ERROR - Error processing season 2011 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,692 - nfl_loaders - ERROR - Error processing season 2012 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,692 - nfl_loaders - ERROR - Error processing season 2013 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,692 - nfl_loaders - ERROR - Error processing season 2014 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2015 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2016 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2017 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2018 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2019 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2020 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2021 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2022 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2023 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2024 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,696 - nfl_loaders - ERROR - Error processing season 2025 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,697 - nfl_loaders - WARNING - No injury data collected
+2025-01-01 18:51:29,697 - __main__ - WARNING - Empty DataFrame for nfl_injuries
+2025-01-01 18:51:29,697 - __main__ - INFO - Collecting data for: nfl_depth_charts
+2025-01-01 18:51:29,697 - nfl_loaders - ERROR - Error processing season 2001: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,697 - nfl_loaders - ERROR - Error processing season 2002: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,697 - nfl_loaders - ERROR - Error processing season 2003: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,697 - nfl_loaders - ERROR - Error processing season 2004: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,697 - nfl_loaders - ERROR - Error processing season 2005: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,697 - nfl_loaders - ERROR - Error processing season 2006: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,697 - nfl_loaders - ERROR - Error processing season 2007: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,697 - nfl_loaders - ERROR - Error processing season 2008: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,697 - nfl_loaders - ERROR - Error processing season 2009: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,697 - nfl_loaders - ERROR - Error processing season 2010: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2011: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2012: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2013: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2014: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2015: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2016: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2017: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,698 - nfl_loaders - WARNING - No depth chart data collected
+2025-01-01 18:51:29,698 - __main__ - WARNING - Empty DataFrame for nfl_depth_charts
+2025-01-01 18:51:29,699 - __main__ - INFO - Collecting data for: nfl_pbp_participation
+2025-01-01 18:51:29,699 - nfl_loaders - ERROR - Error processing season 2016: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,699 - nfl_loaders - ERROR - Error processing season 2017: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,699 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,699 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,699 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,699 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,699 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,699 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,699 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,699 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,700 - nfl_loaders - WARNING - No participation data collected
+2025-01-01 18:51:29,700 - __main__ - WARNING - Empty DataFrame for nfl_pbp_participation
+2025-01-01 18:51:29,700 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_pass
+2025-01-01 18:51:29,700 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,700 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,700 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,700 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,700 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,700 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,700 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,700 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,700 - nfl_loaders - WARNING - No weekly passing data collected
+2025-01-01 18:51:29,700 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_pass
+2025-01-01 18:51:29,700 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_rush
+2025-01-01 18:51:29,701 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,701 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,701 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,701 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,701 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,701 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,701 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,701 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,701 - nfl_loaders - WARNING - No weekly rushing data collected
+2025-01-01 18:51:29,701 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_rush
+2025-01-01 18:51:29,701 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_rec
+2025-01-01 18:51:29,701 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,701 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - WARNING - No weekly receiving data collected
+2025-01-01 18:51:29,702 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_rec
+2025-01-01 18:51:29,702 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_def
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,702 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,703 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,703 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,703 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:51:29,703 - nfl_loaders - WARNING - No weekly defensive data collected
+2025-01-01 18:51:29,703 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_def
+2025-01-01 18:51:29,703 - __main__ - INFO - NFL data collection completed successfully
+2025-01-01 18:58:46,312 - __main__ - INFO - AWS session created and validated successfully
+2025-01-01 18:58:46,313 - __main__ - INFO - Starting NFL data collection
+2025-01-01 18:58:46,313 - __main__ - INFO - Collecting data for: nfl_teams
+2025-01-01 18:58:46,469 - nfl_loaders - ERROR - Missing required columns: {'team'}
+2025-01-01 18:58:46,469 - nfl_loaders - ERROR - Invalid team data structure
+2025-01-01 18:58:46,470 - __main__ - WARNING - Empty DataFrame for nfl_teams
+2025-01-01 18:58:46,470 - __main__ - INFO - Collecting data for: nfl_players
+2025-01-01 18:58:46,470 - nfl_loaders - ERROR - Error loading player data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,470 - __main__ - WARNING - Empty DataFrame for nfl_players
+2025-01-01 18:58:46,470 - __main__ - INFO - Collecting data for: nfl_contracts
+2025-01-01 18:58:46,470 - nfl_loaders - ERROR - Error loading contract data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,470 - __main__ - WARNING - Empty DataFrame for nfl_contracts
+2025-01-01 18:58:46,470 - __main__ - INFO - Collecting data for: nfl_combine
+2025-01-01 18:58:46,470 - nfl_loaders - ERROR - Error loading combine data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,471 - __main__ - WARNING - Empty DataFrame for nfl_combine
+2025-01-01 18:58:46,471 - __main__ - INFO - Collecting data for: nfl_draft_picks
+2025-01-01 18:58:46,471 - nfl_loaders - ERROR - Error loading draft picks data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,471 - __main__ - WARNING - Empty DataFrame for nfl_draft_picks
+2025-01-01 18:58:46,471 - __main__ - INFO - Collecting data for: nfl_officials
+2025-01-01 18:58:46,471 - nfl_loaders - ERROR - Error loading officials data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,471 - __main__ - WARNING - Empty DataFrame for nfl_officials
+2025-01-01 18:58:46,471 - __main__ - INFO - Collecting data for: nfl_player_stats
+2025-01-01 18:58:46,471 - nfl_loaders - ERROR - Error loading player stats: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,471 - __main__ - WARNING - Empty DataFrame for nfl_player_stats
+2025-01-01 18:58:46,471 - __main__ - INFO - Collecting data for: nfl_ngs_passing
+2025-01-01 18:58:46,471 - nfl_loaders - ERROR - Error loading NGS passing data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,471 - __main__ - WARNING - Empty DataFrame for nfl_ngs_passing
+2025-01-01 18:58:46,471 - __main__ - INFO - Collecting data for: nfl_ngs_rushing
+2025-01-01 18:58:46,471 - nfl_loaders - ERROR - Error loading NGS rushing data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,471 - __main__ - WARNING - Empty DataFrame for nfl_ngs_rushing
+2025-01-01 18:58:46,472 - __main__ - INFO - Collecting data for: nfl_ngs_receiving
+2025-01-01 18:58:46,472 - nfl_loaders - ERROR - Error loading NGS receiving data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,472 - __main__ - WARNING - Empty DataFrame for nfl_ngs_receiving
+2025-01-01 18:58:46,472 - __main__ - INFO - Collecting data for: nfl_pfr_pass
+2025-01-01 18:58:46,472 - nfl_loaders - ERROR - Error loading PFR passing data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,472 - __main__ - WARNING - Empty DataFrame for nfl_pfr_pass
+2025-01-01 18:58:46,472 - __main__ - INFO - Collecting data for: nfl_pfr_rush
+2025-01-01 18:58:46,472 - nfl_loaders - ERROR - Error loading PFR rushing data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,472 - __main__ - WARNING - Empty DataFrame for nfl_pfr_rush
+2025-01-01 18:58:46,472 - __main__ - INFO - Collecting data for: nfl_pfr_rec
+2025-01-01 18:58:46,472 - nfl_loaders - ERROR - Error loading PFR receiving data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,472 - __main__ - WARNING - Empty DataFrame for nfl_pfr_rec
+2025-01-01 18:58:46,472 - __main__ - INFO - Collecting data for: nfl_pfr_def
+2025-01-01 18:58:46,472 - nfl_loaders - ERROR - Error loading PFR defensive data: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:58:46,472 - __main__ - WARNING - Empty DataFrame for nfl_pfr_def
+2025-01-01 18:58:46,472 - __main__ - INFO - Collecting data for: nfl_pbp
+2025-01-01 18:58:47,861 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["1999-11-14", "1999-11-28", … "1999-12-26"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:58:48,860 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2000-11-26", "2000-10-30", … "2000-10-09"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:58:50,025 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2002-01-13", "2001-10-28", … "2001-10-22"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:58:51,079 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2002-11-04", "2002-12-16", … "2002-11-28"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:58:52,225 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2003-12-20", "2003-10-12", … "2003-12-08"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:58:53,293 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2004-11-08", "2005-01-23", … "2004-10-25"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:58:54,466 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2005-10-21", "2006-02-05", … "2005-11-27"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:58:55,707 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2006-10-23", "2007-02-04", … "2006-12-04"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:58:57,062 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2007-09-30", "2007-12-22", … "2007-10-14"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:01,148 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2008-10-26", "2008-11-03", … "2008-12-28"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:02,430 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2009-10-18", "2009-10-25", … "2009-09-14"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:03,935 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2010-10-10", "2010-11-28", … "2010-12-27"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:05,281 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2011-09-18", "2011-11-07", … "2011-11-21"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:06,819 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2012-11-01", "2012-09-09", … "2012-11-18"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:08,313 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2013-09-26", "2013-10-24", … "2013-09-23"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:09,672 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2014-12-07", "2014-09-18", … "2014-12-11"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:11,176 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2015-09-17", "2015-10-08", … "2015-11-12"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:12,575 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2016-11-21", "2016-10-16", … "2017-01-14"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:14,195 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2017-10-02", "2017-11-27", … "2017-12-14"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:15,899 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2018-10-29", "2018-09-16", … "2019-01-05"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:17,691 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2019-09-12", "2019-09-05", … "2019-10-10"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:19,778 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2020-12-06", "2020-12-21", … "2020-11-12"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:21,439 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2021-10-11", "2021-11-22", … "2021-10-28"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:23,447 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2023-01-01", "2022-10-06", … "2022-10-02"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:27,056 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2023-11-12", "2023-10-12", … "2023-10-23"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:28,534 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2024-12-12", "2024-12-28", … "2024-11-11"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 18:59:29,058 - nfl_loaders - WARNING - No PBP data found for season 2025. Skipping.
+2025-01-01 18:59:34,161 - __main__ - INFO - Saved 1225853 rows locally at /Users/ryanranft/0/sportsdataverse/sportsdataverse-py/raw_data/nfl/nfl_pbp/nfl_pbp_20250101_185929.parquet
+2025-01-01 18:59:34,161 - __main__ - WARNING - DataFrame size (4296464277) exceeds buffer limit (100000000)
+2025-01-01 18:59:39,523 - __main__ - ERROR - Unexpected error during S3 upload: Failed to upload /var/folders/3q/_nm8l18n2jdd9fqjp71xbg080000gn/T/tmpuwe9av3w to sportsdataverse/raw_data/nfl/nfl_pbp/nfl_pbp_20250101_185929.parquet: An error occurred (MetadataTooLarge) when calling the CreateMultipartUpload operation: Your metadata headers exceed the maximum allowed metadata size
+2025-01-01 18:59:39,523 - __main__ - ERROR - Failed to upload nfl_pbp to S3
+2025-01-01 18:59:39,523 - __main__ - INFO - Collecting data for: nfl_weekly_rosters
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2002 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2003 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2004 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2005 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2006 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2007 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2008 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2009 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2010 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2011 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,523 - nfl_loaders - ERROR - Error processing season 2012 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2013 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2014 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2015 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2016 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2017 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2018 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2019 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2020 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2021 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2022 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2023 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2024 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - ERROR - Error processing season 2025 weekly rosters: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,524 - nfl_loaders - WARNING - No weekly roster data collected
+2025-01-01 18:59:39,524 - __main__ - WARNING - Empty DataFrame for nfl_weekly_rosters
+2025-01-01 18:59:39,524 - __main__ - INFO - Collecting data for: nfl_schedule
+2025-01-01 18:59:39,524 - nfl_loaders - WARNING - Parquet read failed for 1999, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,679 - nfl_loaders - WARNING - Parquet read failed for 2000, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,818 - nfl_loaders - WARNING - Parquet read failed for 2001, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:39,991 - nfl_loaders - WARNING - Parquet read failed for 2002, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:40,147 - nfl_loaders - WARNING - Parquet read failed for 2003, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:40,325 - nfl_loaders - WARNING - Parquet read failed for 2004, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:40,495 - nfl_loaders - WARNING - Parquet read failed for 2005, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:40,643 - nfl_loaders - WARNING - Parquet read failed for 2006, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:40,785 - nfl_loaders - WARNING - Parquet read failed for 2007, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:41,033 - nfl_loaders - WARNING - Parquet read failed for 2008, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:41,193 - nfl_loaders - WARNING - Parquet read failed for 2009, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:41,349 - nfl_loaders - WARNING - Parquet read failed for 2010, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:41,516 - nfl_loaders - WARNING - Parquet read failed for 2011, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:41,779 - nfl_loaders - WARNING - Parquet read failed for 2012, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:42,024 - nfl_loaders - WARNING - Parquet read failed for 2013, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:42,186 - nfl_loaders - WARNING - Parquet read failed for 2014, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:42,342 - nfl_loaders - WARNING - Parquet read failed for 2015, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:42,527 - nfl_loaders - WARNING - Parquet read failed for 2016, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:42,783 - nfl_loaders - WARNING - Parquet read failed for 2017, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:42,963 - nfl_loaders - WARNING - Parquet read failed for 2018, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:43,160 - nfl_loaders - WARNING - Parquet read failed for 2019, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:43,328 - nfl_loaders - WARNING - Parquet read failed for 2020, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:43,510 - nfl_loaders - WARNING - Parquet read failed for 2021, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:43,683 - nfl_loaders - WARNING - Parquet read failed for 2022, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:43,821 - nfl_loaders - WARNING - No schedule data found for season 2022
+2025-01-01 18:59:43,823 - nfl_loaders - WARNING - Parquet read failed for 2023, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:44,069 - nfl_loaders - WARNING - No schedule data found for season 2023
+2025-01-01 18:59:44,072 - nfl_loaders - WARNING - Parquet read failed for 2024, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:44,208 - nfl_loaders - WARNING - No schedule data found for season 2024
+2025-01-01 18:59:44,213 - nfl_loaders - WARNING - Parquet read failed for 2025, trying RDS: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 18:59:44,352 - nfl_loaders - WARNING - No schedule data found for season 2025
+2025-01-01 18:59:44,364 - __main__ - INFO - Saved 6137 rows locally at /Users/ryanranft/0/sportsdataverse/sportsdataverse-py/raw_data/nfl/nfl_schedule/nfl_schedule_20250101_185944.parquet
+2025-01-01 18:59:45,181 - __main__ - INFO - Successfully uploaded 6137 rows to s3://sportsdataverse/raw_data/nfl/nfl_schedule/nfl_schedule_20250101_185944.parquet
+2025-01-01 18:59:45,183 - __main__ - INFO - Collecting data for: nfl_rosters
+2025-01-01 18:59:45,923 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:45,924 - nfl_loaders - WARNING - Skipping invalid data for season 1920
+2025-01-01 18:59:46,317 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:46,317 - nfl_loaders - WARNING - Skipping invalid data for season 1921
+2025-01-01 18:59:46,775 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:46,775 - nfl_loaders - WARNING - Skipping invalid data for season 1922
+2025-01-01 18:59:47,151 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:47,151 - nfl_loaders - WARNING - Skipping invalid data for season 1923
+2025-01-01 18:59:47,553 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:47,553 - nfl_loaders - WARNING - Skipping invalid data for season 1924
+2025-01-01 18:59:47,937 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:47,937 - nfl_loaders - WARNING - Skipping invalid data for season 1925
+2025-01-01 18:59:48,371 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:48,371 - nfl_loaders - WARNING - Skipping invalid data for season 1926
+2025-01-01 18:59:48,777 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:48,777 - nfl_loaders - WARNING - Skipping invalid data for season 1927
+2025-01-01 18:59:49,178 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:49,179 - nfl_loaders - WARNING - Skipping invalid data for season 1928
+2025-01-01 18:59:49,585 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:49,585 - nfl_loaders - WARNING - Skipping invalid data for season 1929
+2025-01-01 18:59:49,980 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:49,981 - nfl_loaders - WARNING - Skipping invalid data for season 1930
+2025-01-01 18:59:50,375 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:50,375 - nfl_loaders - WARNING - Skipping invalid data for season 1931
+2025-01-01 18:59:50,871 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:50,871 - nfl_loaders - WARNING - Skipping invalid data for season 1932
+2025-01-01 18:59:51,312 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:51,313 - nfl_loaders - WARNING - Skipping invalid data for season 1933
+2025-01-01 18:59:51,692 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:51,692 - nfl_loaders - WARNING - Skipping invalid data for season 1934
+2025-01-01 18:59:52,081 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:52,082 - nfl_loaders - WARNING - Skipping invalid data for season 1935
+2025-01-01 18:59:52,477 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:52,477 - nfl_loaders - WARNING - Skipping invalid data for season 1936
+2025-01-01 18:59:52,851 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:52,851 - nfl_loaders - WARNING - Skipping invalid data for season 1937
+2025-01-01 18:59:53,254 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:53,254 - nfl_loaders - WARNING - Skipping invalid data for season 1938
+2025-01-01 18:59:53,671 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:53,671 - nfl_loaders - WARNING - Skipping invalid data for season 1939
+2025-01-01 18:59:54,384 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:54,384 - nfl_loaders - WARNING - Skipping invalid data for season 1940
+2025-01-01 18:59:54,783 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:54,783 - nfl_loaders - WARNING - Skipping invalid data for season 1941
+2025-01-01 18:59:55,189 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:55,190 - nfl_loaders - WARNING - Skipping invalid data for season 1942
+2025-01-01 18:59:55,650 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:55,651 - nfl_loaders - WARNING - Skipping invalid data for season 1943
+2025-01-01 18:59:56,172 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:56,172 - nfl_loaders - WARNING - Skipping invalid data for season 1944
+2025-01-01 18:59:56,567 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:56,567 - nfl_loaders - WARNING - Skipping invalid data for season 1945
+2025-01-01 18:59:56,965 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:56,965 - nfl_loaders - WARNING - Skipping invalid data for season 1946
+2025-01-01 18:59:57,671 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:57,671 - nfl_loaders - WARNING - Skipping invalid data for season 1947
+2025-01-01 18:59:58,070 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:58,070 - nfl_loaders - WARNING - Skipping invalid data for season 1948
+2025-01-01 18:59:58,811 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:58,812 - nfl_loaders - WARNING - Skipping invalid data for season 1949
+2025-01-01 18:59:59,217 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:59,217 - nfl_loaders - WARNING - Skipping invalid data for season 1950
+2025-01-01 18:59:59,617 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 18:59:59,618 - nfl_loaders - WARNING - Skipping invalid data for season 1951
+2025-01-01 19:00:00,042 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:00,043 - nfl_loaders - WARNING - Skipping invalid data for season 1952
+2025-01-01 19:00:00,452 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:00,452 - nfl_loaders - WARNING - Skipping invalid data for season 1953
+2025-01-01 19:00:00,882 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:00,883 - nfl_loaders - WARNING - Skipping invalid data for season 1954
+2025-01-01 19:00:01,315 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:01,315 - nfl_loaders - WARNING - Skipping invalid data for season 1955
+2025-01-01 19:00:01,770 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:01,771 - nfl_loaders - WARNING - Skipping invalid data for season 1956
+2025-01-01 19:00:02,484 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:02,485 - nfl_loaders - WARNING - Skipping invalid data for season 1957
+2025-01-01 19:00:02,923 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:02,923 - nfl_loaders - WARNING - Skipping invalid data for season 1958
+2025-01-01 19:00:03,336 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:03,337 - nfl_loaders - WARNING - Skipping invalid data for season 1959
+2025-01-01 19:00:03,763 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:03,763 - nfl_loaders - WARNING - Skipping invalid data for season 1960
+2025-01-01 19:00:04,188 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:04,188 - nfl_loaders - WARNING - Skipping invalid data for season 1961
+2025-01-01 19:00:04,718 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:04,718 - nfl_loaders - WARNING - Skipping invalid data for season 1962
+2025-01-01 19:00:05,404 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:05,405 - nfl_loaders - WARNING - Skipping invalid data for season 1963
+2025-01-01 19:00:05,917 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:05,917 - nfl_loaders - WARNING - Skipping invalid data for season 1964
+2025-01-01 19:00:06,384 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:06,384 - nfl_loaders - WARNING - Skipping invalid data for season 1965
+2025-01-01 19:00:06,816 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:06,816 - nfl_loaders - WARNING - Skipping invalid data for season 1966
+2025-01-01 19:00:07,232 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:07,232 - nfl_loaders - WARNING - Skipping invalid data for season 1967
+2025-01-01 19:00:07,760 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:07,760 - nfl_loaders - WARNING - Skipping invalid data for season 1968
+2025-01-01 19:00:08,468 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:08,468 - nfl_loaders - WARNING - Skipping invalid data for season 1969
+2025-01-01 19:00:08,908 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:08,908 - nfl_loaders - WARNING - Skipping invalid data for season 1970
+2025-01-01 19:00:09,340 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:09,340 - nfl_loaders - WARNING - Skipping invalid data for season 1971
+2025-01-01 19:00:09,795 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:09,795 - nfl_loaders - WARNING - Skipping invalid data for season 1972
+2025-01-01 19:00:10,257 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:10,257 - nfl_loaders - WARNING - Skipping invalid data for season 1973
+2025-01-01 19:00:10,710 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:10,710 - nfl_loaders - WARNING - Skipping invalid data for season 1974
+2025-01-01 19:00:11,163 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:11,163 - nfl_loaders - WARNING - Skipping invalid data for season 1975
+2025-01-01 19:00:11,594 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:11,594 - nfl_loaders - WARNING - Skipping invalid data for season 1976
+2025-01-01 19:00:12,041 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:12,042 - nfl_loaders - WARNING - Skipping invalid data for season 1977
+2025-01-01 19:00:12,486 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:12,486 - nfl_loaders - WARNING - Skipping invalid data for season 1978
+2025-01-01 19:00:12,918 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:12,918 - nfl_loaders - WARNING - Skipping invalid data for season 1979
+2025-01-01 19:00:13,414 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:13,414 - nfl_loaders - WARNING - Skipping invalid data for season 1980
+2025-01-01 19:00:13,875 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:13,876 - nfl_loaders - WARNING - Skipping invalid data for season 1981
+2025-01-01 19:00:14,321 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:14,321 - nfl_loaders - WARNING - Skipping invalid data for season 1982
+2025-01-01 19:00:15,059 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:15,059 - nfl_loaders - WARNING - Skipping invalid data for season 1983
+2025-01-01 19:00:15,539 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:15,539 - nfl_loaders - WARNING - Skipping invalid data for season 1984
+2025-01-01 19:00:15,986 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:15,986 - nfl_loaders - WARNING - Skipping invalid data for season 1985
+2025-01-01 19:00:16,472 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:16,472 - nfl_loaders - WARNING - Skipping invalid data for season 1986
+2025-01-01 19:00:16,958 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:16,958 - nfl_loaders - WARNING - Skipping invalid data for season 1987
+2025-01-01 19:00:17,398 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:17,398 - nfl_loaders - WARNING - Skipping invalid data for season 1988
+2025-01-01 19:00:17,852 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:17,852 - nfl_loaders - WARNING - Skipping invalid data for season 1989
+2025-01-01 19:00:18,333 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:18,333 - nfl_loaders - WARNING - Skipping invalid data for season 1990
+2025-01-01 19:00:18,795 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:18,796 - nfl_loaders - WARNING - Skipping invalid data for season 1991
+2025-01-01 19:00:19,237 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:19,237 - nfl_loaders - WARNING - Skipping invalid data for season 1992
+2025-01-01 19:00:19,677 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:19,677 - nfl_loaders - WARNING - Skipping invalid data for season 1993
+2025-01-01 19:00:20,096 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:20,096 - nfl_loaders - WARNING - Skipping invalid data for season 1994
+2025-01-01 19:00:20,565 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:20,565 - nfl_loaders - WARNING - Skipping invalid data for season 1995
+2025-01-01 19:00:21,022 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:21,022 - nfl_loaders - WARNING - Skipping invalid data for season 1996
+2025-01-01 19:00:21,536 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:21,536 - nfl_loaders - WARNING - Skipping invalid data for season 1997
+2025-01-01 19:00:21,955 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:21,955 - nfl_loaders - WARNING - Skipping invalid data for season 1998
+2025-01-01 19:00:22,401 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:22,401 - nfl_loaders - WARNING - Skipping invalid data for season 1999
+2025-01-01 19:00:22,993 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:22,993 - nfl_loaders - WARNING - Skipping invalid data for season 2000
+2025-01-01 19:00:23,478 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:23,478 - nfl_loaders - WARNING - Skipping invalid data for season 2001
+2025-01-01 19:00:23,925 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:23,925 - nfl_loaders - WARNING - Skipping invalid data for season 2002
+2025-01-01 19:00:24,381 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:24,382 - nfl_loaders - WARNING - Skipping invalid data for season 2003
+2025-01-01 19:00:24,858 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:24,858 - nfl_loaders - WARNING - Skipping invalid data for season 2004
+2025-01-01 19:00:25,338 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:25,338 - nfl_loaders - WARNING - Skipping invalid data for season 2005
+2025-01-01 19:00:25,792 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:25,792 - nfl_loaders - WARNING - Skipping invalid data for season 2006
+2025-01-01 19:00:26,231 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:26,232 - nfl_loaders - WARNING - Skipping invalid data for season 2007
+2025-01-01 19:00:26,788 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:26,788 - nfl_loaders - WARNING - Skipping invalid data for season 2008
+2025-01-01 19:00:27,268 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:27,268 - nfl_loaders - WARNING - Skipping invalid data for season 2009
+2025-01-01 19:00:27,715 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:27,716 - nfl_loaders - WARNING - Skipping invalid data for season 2010
+2025-01-01 19:00:28,163 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:28,163 - nfl_loaders - WARNING - Skipping invalid data for season 2011
+2025-01-01 19:00:28,637 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:28,638 - nfl_loaders - WARNING - Skipping invalid data for season 2012
+2025-01-01 19:00:29,070 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:29,071 - nfl_loaders - WARNING - Skipping invalid data for season 2013
+2025-01-01 19:00:29,552 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:29,552 - nfl_loaders - WARNING - Skipping invalid data for season 2014
+2025-01-01 19:00:30,281 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:30,281 - nfl_loaders - WARNING - Skipping invalid data for season 2015
+2025-01-01 19:00:30,724 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:30,724 - nfl_loaders - WARNING - Skipping invalid data for season 2016
+2025-01-01 19:00:31,479 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:31,479 - nfl_loaders - WARNING - Skipping invalid data for season 2017
+2025-01-01 19:00:31,936 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:31,936 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 19:00:32,590 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:32,591 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 19:00:33,101 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:33,102 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 19:00:33,573 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:33,573 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 19:00:34,368 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:34,368 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 19:00:34,867 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:34,867 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 19:00:35,358 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:00:35,358 - nfl_loaders - WARNING - Skipping invalid data for season 2024
+2025-01-01 19:00:35,868 - nfl_loaders - ERROR - Error processing season 2025: HTTP Error 404: Not Found
+2025-01-01 19:00:35,872 - nfl_loaders - WARNING - No roster data collected
+2025-01-01 19:00:35,872 - __main__ - WARNING - Empty DataFrame for nfl_rosters
+2025-01-01 19:00:35,872 - __main__ - INFO - Collecting data for: nfl_snap_counts
+2025-01-01 19:00:35,873 - nfl_loaders - ERROR - Error processing season 2012: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,873 - nfl_loaders - ERROR - Error processing season 2013: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,873 - nfl_loaders - ERROR - Error processing season 2014: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,873 - nfl_loaders - ERROR - Error processing season 2015: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,874 - nfl_loaders - ERROR - Error processing season 2016: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,874 - nfl_loaders - ERROR - Error processing season 2017: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,876 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,876 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,877 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,877 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,877 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,877 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,877 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,877 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,877 - nfl_loaders - WARNING - No snap count data collected
+2025-01-01 19:00:35,877 - __main__ - WARNING - Empty DataFrame for nfl_snap_counts
+2025-01-01 19:00:35,877 - __main__ - INFO - Collecting data for: nfl_injuries
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2009 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2010 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2011 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2012 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2013 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2014 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2015 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2016 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2017 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2018 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2019 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2020 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2021 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2022 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,878 - nfl_loaders - ERROR - Error processing season 2023 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,879 - nfl_loaders - ERROR - Error processing season 2024 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,879 - nfl_loaders - ERROR - Error processing season 2025 injuries: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,879 - nfl_loaders - WARNING - No injury data collected
+2025-01-01 19:00:35,879 - __main__ - WARNING - Empty DataFrame for nfl_injuries
+2025-01-01 19:00:35,879 - __main__ - INFO - Collecting data for: nfl_depth_charts
+2025-01-01 19:00:35,879 - nfl_loaders - ERROR - Error processing season 2001: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,879 - nfl_loaders - ERROR - Error processing season 2002: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,879 - nfl_loaders - ERROR - Error processing season 2003: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,879 - nfl_loaders - ERROR - Error processing season 2004: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,879 - nfl_loaders - ERROR - Error processing season 2005: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,879 - nfl_loaders - ERROR - Error processing season 2006: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,879 - nfl_loaders - ERROR - Error processing season 2007: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2008: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2009: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2010: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2011: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2012: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2013: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2014: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2015: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2016: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2017: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,880 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,881 - nfl_loaders - WARNING - No depth chart data collected
+2025-01-01 19:00:35,881 - __main__ - WARNING - Empty DataFrame for nfl_depth_charts
+2025-01-01 19:00:35,881 - __main__ - INFO - Collecting data for: nfl_pbp_participation
+2025-01-01 19:00:35,881 - nfl_loaders - ERROR - Error processing season 2016: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,881 - nfl_loaders - ERROR - Error processing season 2017: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,881 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,881 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,882 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,882 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,882 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,882 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,882 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,882 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,882 - nfl_loaders - WARNING - No participation data collected
+2025-01-01 19:00:35,882 - __main__ - WARNING - Empty DataFrame for nfl_pbp_participation
+2025-01-01 19:00:35,882 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_pass
+2025-01-01 19:00:35,882 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - WARNING - No weekly passing data collected
+2025-01-01 19:00:35,883 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_pass
+2025-01-01 19:00:35,883 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_rush
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,883 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - WARNING - No weekly rushing data collected
+2025-01-01 19:00:35,884 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_rush
+2025-01-01 19:00:35,884 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_rec
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,884 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,885 - nfl_loaders - WARNING - No weekly receiving data collected
+2025-01-01 19:00:35,885 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_rec
+2025-01-01 19:00:35,885 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_def
+2025-01-01 19:00:35,885 - nfl_loaders - ERROR - Error processing season 2018: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,885 - nfl_loaders - ERROR - Error processing season 2019: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,885 - nfl_loaders - ERROR - Error processing season 2020: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,885 - nfl_loaders - ERROR - Error processing season 2021: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,885 - nfl_loaders - ERROR - Error processing season 2022: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,885 - nfl_loaders - ERROR - Error processing season 2023: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,885 - nfl_loaders - ERROR - Error processing season 2024: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,885 - nfl_loaders - ERROR - Error processing season 2025: read_parquet() got an unexpected keyword argument 'compression'
+2025-01-01 19:00:35,885 - nfl_loaders - WARNING - No weekly defensive data collected
+2025-01-01 19:00:35,885 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_def
+2025-01-01 19:00:35,885 - __main__ - INFO - NFL data collection completed successfully
+2025-01-01 19:31:20,732 - __main__ - INFO - AWS session created and validated successfully
+2025-01-01 19:31:20,733 - __main__ - INFO - Starting NFL data collection
+2025-01-01 19:31:20,733 - __main__ - INFO - Collecting data for: nfl_teams
+2025-01-01 19:31:20,907 - nfl_loaders - ERROR - Missing required columns: {'team'}
+2025-01-01 19:31:20,907 - nfl_loaders - ERROR - Invalid team data structure
+2025-01-01 19:31:20,908 - __main__ - WARNING - Empty DataFrame for nfl_teams
+2025-01-01 19:31:20,908 - __main__ - INFO - Collecting data for: nfl_players
+2025-01-01 19:31:21,646 - nfl_loaders - ERROR - Missing required columns: {'player_name', 'player_id'}
+2025-01-01 19:31:21,646 - nfl_loaders - ERROR - Invalid player data structure
+2025-01-01 19:31:21,646 - __main__ - WARNING - Empty DataFrame for nfl_players
+2025-01-01 19:31:21,646 - __main__ - INFO - Collecting data for: nfl_contracts
+2025-01-01 19:31:22,460 - nfl_loaders - ERROR - Missing required columns: {'player_id', 'season'}
+2025-01-01 19:31:22,461 - nfl_loaders - ERROR - Invalid contract data structure
+2025-01-01 19:31:22,461 - __main__ - WARNING - Empty DataFrame for nfl_contracts
+2025-01-01 19:31:22,461 - __main__ - INFO - Collecting data for: nfl_combine
+2025-01-01 19:31:22,944 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:31:22,944 - nfl_loaders - ERROR - Invalid combine data structure
+2025-01-01 19:31:22,945 - __main__ - WARNING - Empty DataFrame for nfl_combine
+2025-01-01 19:31:22,945 - __main__ - INFO - Collecting data for: nfl_draft_picks
+2025-01-01 19:31:23,381 - nfl_loaders - ERROR - Missing required columns: {'draft_round', 'draft_pick', 'draft_year', 'player_id'}
+2025-01-01 19:31:23,381 - nfl_loaders - ERROR - Invalid draft picks data structure
+2025-01-01 19:31:23,381 - __main__ - WARNING - Empty DataFrame for nfl_draft_picks
+2025-01-01 19:31:23,381 - __main__ - INFO - Collecting data for: nfl_officials
+2025-01-01 19:31:23,871 - __main__ - INFO - Saved 19560 rows locally at /Users/ryanranft/0/sportsdataverse/sportsdataverse-py/raw_data/nfl/nfl_officials/nfl_officials_20250101_193123.parquet
+2025-01-01 19:31:24,835 - __main__ - INFO - Successfully uploaded 19560 rows to s3://sportsdataverse/raw_data/nfl/nfl_officials/nfl_officials_20250101_193123.parquet
+2025-01-01 19:31:24,836 - __main__ - INFO - Collecting data for: nfl_player_stats
+2025-01-01 19:31:25,628 - nfl_loaders - ERROR - Missing required columns: {'team'}
+2025-01-01 19:31:25,629 - nfl_loaders - ERROR - Invalid player stats data structure
+2025-01-01 19:31:25,629 - __main__ - WARNING - Empty DataFrame for nfl_player_stats
+2025-01-01 19:31:25,629 - __main__ - INFO - Collecting data for: nfl_ngs_passing
+2025-01-01 19:31:26,132 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:31:26,133 - nfl_loaders - ERROR - Invalid NGS passing data structure
+2025-01-01 19:31:26,133 - __main__ - WARNING - Empty DataFrame for nfl_ngs_passing
+2025-01-01 19:31:26,133 - __main__ - INFO - Collecting data for: nfl_ngs_rushing
+2025-01-01 19:31:26,501 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:31:26,501 - nfl_loaders - ERROR - Invalid NGS rushing data structure
+2025-01-01 19:31:26,502 - __main__ - WARNING - Empty DataFrame for nfl_ngs_rushing
+2025-01-01 19:31:26,502 - __main__ - INFO - Collecting data for: nfl_ngs_receiving
+2025-01-01 19:31:27,025 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:31:27,026 - nfl_loaders - ERROR - Invalid NGS receiving data structure
+2025-01-01 19:31:27,026 - __main__ - WARNING - Empty DataFrame for nfl_ngs_receiving
+2025-01-01 19:31:27,026 - __main__ - INFO - Collecting data for: nfl_pfr_pass
+2025-01-01 19:31:27,544 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:31:27,544 - nfl_loaders - ERROR - Invalid PFR passing data structure
+2025-01-01 19:31:27,544 - __main__ - WARNING - Empty DataFrame for nfl_pfr_pass
+2025-01-01 19:31:27,544 - __main__ - INFO - Collecting data for: nfl_pfr_rush
+2025-01-01 19:31:28,075 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:31:28,076 - nfl_loaders - ERROR - Invalid PFR rushing data structure
+2025-01-01 19:31:28,076 - __main__ - WARNING - Empty DataFrame for nfl_pfr_rush
+2025-01-01 19:31:28,076 - __main__ - INFO - Collecting data for: nfl_pfr_rec
+2025-01-01 19:31:28,503 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:31:28,503 - nfl_loaders - ERROR - Invalid PFR receiving data structure
+2025-01-01 19:31:28,503 - __main__ - WARNING - Empty DataFrame for nfl_pfr_rec
+2025-01-01 19:31:28,503 - __main__ - INFO - Collecting data for: nfl_pfr_def
+2025-01-01 19:31:28,956 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:31:28,957 - nfl_loaders - ERROR - Invalid PFR defensive data structure
+2025-01-01 19:31:28,957 - __main__ - WARNING - Empty DataFrame for nfl_pfr_def
+2025-01-01 19:31:28,957 - __main__ - INFO - Collecting data for: nfl_pbp
+2025-01-01 19:31:31,075 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["1999-12-02", "1999-11-01", … "2000-01-09"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:32,404 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2000-12-10", "2001-01-07", … "2001-01-28"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:33,376 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2001-11-18", "2001-11-19", … "2001-11-04"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:34,552 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2002-12-01", "2002-10-21", … "2002-12-16"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:35,782 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2003-12-28", "2003-10-05", … "2003-10-12"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:37,721 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2004-12-12", "2004-10-04", … "2004-11-25"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:39,171 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2005-11-13", "2005-11-27", … "2005-12-18"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:40,519 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2006-12-18", "2007-01-07", … "2006-10-23"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:41,935 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2007-11-19", "2007-11-12", … "2007-12-03"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:43,479 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2008-12-11", "2008-12-21", … "2009-01-03"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:45,211 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2009-11-26", "2010-01-09", … "2010-01-17"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:46,877 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2010-09-12", "2010-10-17", … "2010-10-03"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:48,574 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2011-10-10", "2011-09-11", … "2011-11-27"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:49,898 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2012-11-08", "2012-11-22", … "2012-12-03"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:51,285 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2013-09-08", "2013-12-15", … "2014-01-19"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:52,687 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2014-11-10", "2014-11-17", … "2014-12-21"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:54,026 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2015-09-13", "2015-11-19", … "2015-10-18"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:55,435 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2016-11-28", "2016-10-10", … "2016-10-03"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:56,952 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2018-01-06", "2017-10-12", … "2017-09-25"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:58,387 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2018-12-10", "2018-10-01", … "2018-11-08"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:31:59,999 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2020-01-12", "2020-01-05", … "2019-10-31"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:32:01,477 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2021-01-09", "2020-09-28", … "2020-09-27"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:32:02,933 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2021-12-06", "2021-09-09", … "2022-01-02"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:32:04,664 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2022-11-10", "2022-12-05", … "2022-12-18"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:32:06,483 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2023-12-24", "2023-09-28", … "2023-09-14"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:32:08,198 - nfl_loaders - WARNING - Failed to cast game_date to Date: strict conversion from `str` to `date` failed for value(s) ["2024-12-02", "2024-11-04", … "2024-09-05"]; if you were trying to cast Utf8 to temporal dtypes, consider using `strptime`
+2025-01-01 19:32:08,742 - nfl_loaders - WARNING - No PBP data found for season 2025. Skipping.
+2025-01-01 19:32:13,711 - __main__ - INFO - Saved 1225853 rows locally at /Users/ryanranft/0/sportsdataverse/sportsdataverse-py/raw_data/nfl/nfl_pbp/nfl_pbp_20250101_193208.parquet
+2025-01-01 19:32:13,711 - __main__ - WARNING - DataFrame size (4296464277) exceeds buffer limit (100000000)
+2025-01-01 19:32:18,897 - __main__ - ERROR - Unexpected error during S3 upload: Failed to upload /var/folders/3q/_nm8l18n2jdd9fqjp71xbg080000gn/T/tmpd38kosax to sportsdataverse/raw_data/nfl/nfl_pbp/nfl_pbp_20250101_193208.parquet: An error occurred (MetadataTooLarge) when calling the CreateMultipartUpload operation: Your metadata headers exceed the maximum allowed metadata size
+2025-01-01 19:32:18,897 - __main__ - ERROR - Failed to upload nfl_pbp to S3
+2025-01-01 19:32:18,897 - __main__ - INFO - Collecting data for: nfl_weekly_rosters
+2025-01-01 19:32:19,382 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:19,383 - nfl_loaders - WARNING - Skipping invalid data for season 2002
+2025-01-01 19:32:19,909 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:19,909 - nfl_loaders - WARNING - Skipping invalid data for season 2003
+2025-01-01 19:32:20,394 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:20,394 - nfl_loaders - WARNING - Skipping invalid data for season 2004
+2025-01-01 19:32:20,850 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:20,850 - nfl_loaders - WARNING - Skipping invalid data for season 2005
+2025-01-01 19:32:21,331 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:21,331 - nfl_loaders - WARNING - Skipping invalid data for season 2006
+2025-01-01 19:32:22,048 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:22,048 - nfl_loaders - WARNING - Skipping invalid data for season 2007
+2025-01-01 19:32:22,494 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:22,495 - nfl_loaders - WARNING - Skipping invalid data for season 2008
+2025-01-01 19:32:22,988 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:22,988 - nfl_loaders - WARNING - Skipping invalid data for season 2009
+2025-01-01 19:32:23,428 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:23,428 - nfl_loaders - WARNING - Skipping invalid data for season 2010
+2025-01-01 19:32:23,917 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:23,917 - nfl_loaders - WARNING - Skipping invalid data for season 2011
+2025-01-01 19:32:24,449 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:24,449 - nfl_loaders - WARNING - Skipping invalid data for season 2012
+2025-01-01 19:32:24,880 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:24,880 - nfl_loaders - WARNING - Skipping invalid data for season 2013
+2025-01-01 19:32:25,339 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:25,339 - nfl_loaders - WARNING - Skipping invalid data for season 2014
+2025-01-01 19:32:25,830 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:25,830 - nfl_loaders - WARNING - Skipping invalid data for season 2015
+2025-01-01 19:32:26,340 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:26,341 - nfl_loaders - WARNING - Skipping invalid data for season 2016
+2025-01-01 19:32:26,780 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:26,780 - nfl_loaders - WARNING - Skipping invalid data for season 2017
+2025-01-01 19:32:27,282 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:27,283 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 19:32:27,810 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:27,810 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 19:32:28,278 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:28,278 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 19:32:28,786 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:28,786 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 19:32:29,210 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:29,210 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 19:32:29,747 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:29,748 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 19:32:30,276 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:30,277 - nfl_loaders - WARNING - Skipping invalid data for season 2024
+2025-01-01 19:32:30,502 - nfl_loaders - WARNING - No weekly roster data found for season 2025
+2025-01-01 19:32:30,503 - nfl_loaders - WARNING - No weekly roster data collected
+2025-01-01 19:32:30,503 - __main__ - WARNING - Empty DataFrame for nfl_weekly_rosters
+2025-01-01 19:32:30,503 - __main__ - INFO - Collecting data for: nfl_schedule
+2025-01-01 19:32:30,755 - nfl_loaders - WARNING - Parquet read failed for 1999, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:31,039 - nfl_loaders - WARNING - Parquet read failed for 2000, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:31,329 - nfl_loaders - WARNING - Parquet read failed for 2001, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:31,657 - nfl_loaders - WARNING - Parquet read failed for 2002, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:31,924 - nfl_loaders - WARNING - Parquet read failed for 2003, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:32,186 - nfl_loaders - WARNING - Parquet read failed for 2004, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:32,409 - nfl_loaders - WARNING - Parquet read failed for 2005, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:32,670 - nfl_loaders - WARNING - Parquet read failed for 2006, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:32,935 - nfl_loaders - WARNING - Parquet read failed for 2007, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:33,192 - nfl_loaders - WARNING - Parquet read failed for 2008, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:33,437 - nfl_loaders - WARNING - Parquet read failed for 2009, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:33,718 - nfl_loaders - WARNING - Parquet read failed for 2010, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:33,957 - nfl_loaders - WARNING - Parquet read failed for 2011, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:34,207 - nfl_loaders - WARNING - Parquet read failed for 2012, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:34,472 - nfl_loaders - WARNING - Parquet read failed for 2013, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:34,744 - nfl_loaders - WARNING - Parquet read failed for 2014, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:34,997 - nfl_loaders - WARNING - Parquet read failed for 2015, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:35,230 - nfl_loaders - WARNING - Parquet read failed for 2016, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:35,454 - nfl_loaders - WARNING - Parquet read failed for 2017, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:35,760 - nfl_loaders - WARNING - Parquet read failed for 2018, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:35,994 - nfl_loaders - WARNING - Parquet read failed for 2019, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:36,226 - nfl_loaders - WARNING - Parquet read failed for 2020, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:36,448 - nfl_loaders - WARNING - Parquet read failed for 2021, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:36,690 - nfl_loaders - WARNING - Parquet read failed for 2022, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:36,849 - nfl_loaders - WARNING - No schedule data found for season 2022
+2025-01-01 19:32:36,940 - nfl_loaders - WARNING - Parquet read failed for 2023, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:37,068 - nfl_loaders - WARNING - No schedule data found for season 2023
+2025-01-01 19:32:37,164 - nfl_loaders - WARNING - Parquet read failed for 2024, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:37,323 - nfl_loaders - WARNING - No schedule data found for season 2024
+2025-01-01 19:32:37,444 - nfl_loaders - WARNING - Parquet read failed for 2025, trying RDS: HTTP Error 404: Not Found
+2025-01-01 19:32:37,610 - nfl_loaders - WARNING - No schedule data found for season 2025
+2025-01-01 19:32:37,620 - __main__ - INFO - Saved 6137 rows locally at /Users/ryanranft/0/sportsdataverse/sportsdataverse-py/raw_data/nfl/nfl_schedule/nfl_schedule_20250101_193237.parquet
+2025-01-01 19:32:38,387 - __main__ - INFO - Successfully uploaded 6137 rows to s3://sportsdataverse/raw_data/nfl/nfl_schedule/nfl_schedule_20250101_193237.parquet
+2025-01-01 19:32:38,388 - __main__ - INFO - Collecting data for: nfl_rosters
+2025-01-01 19:32:38,923 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:38,923 - nfl_loaders - WARNING - Skipping invalid data for season 1920
+2025-01-01 19:32:39,298 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:39,298 - nfl_loaders - WARNING - Skipping invalid data for season 1921
+2025-01-01 19:32:39,751 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:39,751 - nfl_loaders - WARNING - Skipping invalid data for season 1922
+2025-01-01 19:32:40,156 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:40,157 - nfl_loaders - WARNING - Skipping invalid data for season 1923
+2025-01-01 19:32:40,573 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:40,573 - nfl_loaders - WARNING - Skipping invalid data for season 1924
+2025-01-01 19:32:40,883 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:40,883 - nfl_loaders - WARNING - Skipping invalid data for season 1925
+2025-01-01 19:32:41,211 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:41,211 - nfl_loaders - WARNING - Skipping invalid data for season 1926
+2025-01-01 19:32:41,565 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:41,565 - nfl_loaders - WARNING - Skipping invalid data for season 1927
+2025-01-01 19:32:42,013 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:42,013 - nfl_loaders - WARNING - Skipping invalid data for season 1928
+2025-01-01 19:32:42,407 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:42,407 - nfl_loaders - WARNING - Skipping invalid data for season 1929
+2025-01-01 19:32:42,793 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:42,794 - nfl_loaders - WARNING - Skipping invalid data for season 1930
+2025-01-01 19:32:43,499 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:43,499 - nfl_loaders - WARNING - Skipping invalid data for season 1931
+2025-01-01 19:32:43,826 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:43,826 - nfl_loaders - WARNING - Skipping invalid data for season 1932
+2025-01-01 19:32:44,188 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:44,189 - nfl_loaders - WARNING - Skipping invalid data for season 1933
+2025-01-01 19:32:44,492 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:44,492 - nfl_loaders - WARNING - Skipping invalid data for season 1934
+2025-01-01 19:32:44,874 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:44,874 - nfl_loaders - WARNING - Skipping invalid data for season 1935
+2025-01-01 19:32:45,646 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:45,646 - nfl_loaders - WARNING - Skipping invalid data for season 1936
+2025-01-01 19:32:46,329 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:46,329 - nfl_loaders - WARNING - Skipping invalid data for season 1937
+2025-01-01 19:32:46,928 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:46,928 - nfl_loaders - WARNING - Skipping invalid data for season 1938
+2025-01-01 19:32:47,265 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:47,265 - nfl_loaders - WARNING - Skipping invalid data for season 1939
+2025-01-01 19:32:47,761 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:47,762 - nfl_loaders - WARNING - Skipping invalid data for season 1940
+2025-01-01 19:32:48,183 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:48,183 - nfl_loaders - WARNING - Skipping invalid data for season 1941
+2025-01-01 19:32:48,597 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:48,597 - nfl_loaders - WARNING - Skipping invalid data for season 1942
+2025-01-01 19:32:49,090 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:49,090 - nfl_loaders - WARNING - Skipping invalid data for season 1943
+2025-01-01 19:32:49,511 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:49,511 - nfl_loaders - WARNING - Skipping invalid data for season 1944
+2025-01-01 19:32:49,914 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:49,915 - nfl_loaders - WARNING - Skipping invalid data for season 1945
+2025-01-01 19:32:50,324 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:50,325 - nfl_loaders - WARNING - Skipping invalid data for season 1946
+2025-01-01 19:32:50,666 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:50,666 - nfl_loaders - WARNING - Skipping invalid data for season 1947
+2025-01-01 19:32:51,181 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:51,182 - nfl_loaders - WARNING - Skipping invalid data for season 1948
+2025-01-01 19:32:51,636 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:51,636 - nfl_loaders - WARNING - Skipping invalid data for season 1949
+2025-01-01 19:32:51,957 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:51,957 - nfl_loaders - WARNING - Skipping invalid data for season 1950
+2025-01-01 19:32:52,358 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:52,358 - nfl_loaders - WARNING - Skipping invalid data for season 1951
+2025-01-01 19:32:52,807 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:52,807 - nfl_loaders - WARNING - Skipping invalid data for season 1952
+2025-01-01 19:32:53,235 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:53,235 - nfl_loaders - WARNING - Skipping invalid data for season 1953
+2025-01-01 19:32:53,638 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:53,639 - nfl_loaders - WARNING - Skipping invalid data for season 1954
+2025-01-01 19:32:54,004 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:54,004 - nfl_loaders - WARNING - Skipping invalid data for season 1955
+2025-01-01 19:32:54,398 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:54,398 - nfl_loaders - WARNING - Skipping invalid data for season 1956
+2025-01-01 19:32:54,779 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:54,779 - nfl_loaders - WARNING - Skipping invalid data for season 1957
+2025-01-01 19:32:55,077 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:55,077 - nfl_loaders - WARNING - Skipping invalid data for season 1958
+2025-01-01 19:32:55,853 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:55,853 - nfl_loaders - WARNING - Skipping invalid data for season 1959
+2025-01-01 19:32:56,279 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:56,280 - nfl_loaders - WARNING - Skipping invalid data for season 1960
+2025-01-01 19:32:56,684 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:56,685 - nfl_loaders - WARNING - Skipping invalid data for season 1961
+2025-01-01 19:32:57,037 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:57,037 - nfl_loaders - WARNING - Skipping invalid data for season 1962
+2025-01-01 19:32:57,688 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:57,689 - nfl_loaders - WARNING - Skipping invalid data for season 1963
+2025-01-01 19:32:58,053 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:58,054 - nfl_loaders - WARNING - Skipping invalid data for season 1964
+2025-01-01 19:32:58,442 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:58,442 - nfl_loaders - WARNING - Skipping invalid data for season 1965
+2025-01-01 19:32:58,862 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:58,862 - nfl_loaders - WARNING - Skipping invalid data for season 1966
+2025-01-01 19:32:59,217 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:59,217 - nfl_loaders - WARNING - Skipping invalid data for season 1967
+2025-01-01 19:32:59,635 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:59,635 - nfl_loaders - WARNING - Skipping invalid data for season 1968
+2025-01-01 19:32:59,948 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:32:59,948 - nfl_loaders - WARNING - Skipping invalid data for season 1969
+2025-01-01 19:33:00,419 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:00,419 - nfl_loaders - WARNING - Skipping invalid data for season 1970
+2025-01-01 19:33:00,911 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:00,911 - nfl_loaders - WARNING - Skipping invalid data for season 1971
+2025-01-01 19:33:01,339 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:01,339 - nfl_loaders - WARNING - Skipping invalid data for season 1972
+2025-01-01 19:33:01,752 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:01,752 - nfl_loaders - WARNING - Skipping invalid data for season 1973
+2025-01-01 19:33:02,116 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:02,116 - nfl_loaders - WARNING - Skipping invalid data for season 1974
+2025-01-01 19:33:02,557 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:02,557 - nfl_loaders - WARNING - Skipping invalid data for season 1975
+2025-01-01 19:33:02,965 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:02,965 - nfl_loaders - WARNING - Skipping invalid data for season 1976
+2025-01-01 19:33:03,676 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:03,676 - nfl_loaders - WARNING - Skipping invalid data for season 1977
+2025-01-01 19:33:04,046 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:04,046 - nfl_loaders - WARNING - Skipping invalid data for season 1978
+2025-01-01 19:33:04,461 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:04,462 - nfl_loaders - WARNING - Skipping invalid data for season 1979
+2025-01-01 19:33:04,907 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:04,908 - nfl_loaders - WARNING - Skipping invalid data for season 1980
+2025-01-01 19:33:05,235 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:05,235 - nfl_loaders - WARNING - Skipping invalid data for season 1981
+2025-01-01 19:33:05,698 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:05,698 - nfl_loaders - WARNING - Skipping invalid data for season 1982
+2025-01-01 19:33:06,140 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:06,141 - nfl_loaders - WARNING - Skipping invalid data for season 1983
+2025-01-01 19:33:06,586 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:06,586 - nfl_loaders - WARNING - Skipping invalid data for season 1984
+2025-01-01 19:33:07,255 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:07,255 - nfl_loaders - WARNING - Skipping invalid data for season 1985
+2025-01-01 19:33:07,585 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:07,585 - nfl_loaders - WARNING - Skipping invalid data for season 1986
+2025-01-01 19:33:07,944 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:07,944 - nfl_loaders - WARNING - Skipping invalid data for season 1987
+2025-01-01 19:33:08,378 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:08,378 - nfl_loaders - WARNING - Skipping invalid data for season 1988
+2025-01-01 19:33:08,787 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:08,787 - nfl_loaders - WARNING - Skipping invalid data for season 1989
+2025-01-01 19:33:09,309 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:09,309 - nfl_loaders - WARNING - Skipping invalid data for season 1990
+2025-01-01 19:33:09,736 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:09,736 - nfl_loaders - WARNING - Skipping invalid data for season 1991
+2025-01-01 19:33:10,183 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:10,183 - nfl_loaders - WARNING - Skipping invalid data for season 1992
+2025-01-01 19:33:10,606 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:10,607 - nfl_loaders - WARNING - Skipping invalid data for season 1993
+2025-01-01 19:33:11,230 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:11,230 - nfl_loaders - WARNING - Skipping invalid data for season 1994
+2025-01-01 19:33:11,748 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:11,748 - nfl_loaders - WARNING - Skipping invalid data for season 1995
+2025-01-01 19:33:12,095 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:12,095 - nfl_loaders - WARNING - Skipping invalid data for season 1996
+2025-01-01 19:33:12,545 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:12,545 - nfl_loaders - WARNING - Skipping invalid data for season 1997
+2025-01-01 19:33:13,000 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:13,000 - nfl_loaders - WARNING - Skipping invalid data for season 1998
+2025-01-01 19:33:13,444 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:13,444 - nfl_loaders - WARNING - Skipping invalid data for season 1999
+2025-01-01 19:33:13,807 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:13,807 - nfl_loaders - WARNING - Skipping invalid data for season 2000
+2025-01-01 19:33:14,290 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:14,290 - nfl_loaders - WARNING - Skipping invalid data for season 2001
+2025-01-01 19:33:14,754 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:14,754 - nfl_loaders - WARNING - Skipping invalid data for season 2002
+2025-01-01 19:33:15,204 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:15,205 - nfl_loaders - WARNING - Skipping invalid data for season 2003
+2025-01-01 19:33:15,561 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:15,561 - nfl_loaders - WARNING - Skipping invalid data for season 2004
+2025-01-01 19:33:16,026 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:16,027 - nfl_loaders - WARNING - Skipping invalid data for season 2005
+2025-01-01 19:33:16,380 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:16,381 - nfl_loaders - WARNING - Skipping invalid data for season 2006
+2025-01-01 19:33:16,731 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:16,731 - nfl_loaders - WARNING - Skipping invalid data for season 2007
+2025-01-01 19:33:17,089 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:17,090 - nfl_loaders - WARNING - Skipping invalid data for season 2008
+2025-01-01 19:33:17,509 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:17,509 - nfl_loaders - WARNING - Skipping invalid data for season 2009
+2025-01-01 19:33:17,966 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:17,966 - nfl_loaders - WARNING - Skipping invalid data for season 2010
+2025-01-01 19:33:18,408 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:18,409 - nfl_loaders - WARNING - Skipping invalid data for season 2011
+2025-01-01 19:33:19,203 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:19,203 - nfl_loaders - WARNING - Skipping invalid data for season 2012
+2025-01-01 19:33:19,742 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:19,742 - nfl_loaders - WARNING - Skipping invalid data for season 2013
+2025-01-01 19:33:20,326 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:20,327 - nfl_loaders - WARNING - Skipping invalid data for season 2014
+2025-01-01 19:33:20,737 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:20,738 - nfl_loaders - WARNING - Skipping invalid data for season 2015
+2025-01-01 19:33:21,289 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:21,289 - nfl_loaders - WARNING - Skipping invalid data for season 2016
+2025-01-01 19:33:21,813 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:21,814 - nfl_loaders - WARNING - Skipping invalid data for season 2017
+2025-01-01 19:33:22,659 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:22,660 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 19:33:23,046 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:23,046 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 19:33:23,512 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:23,512 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 19:33:24,102 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:24,102 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 19:33:24,555 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:24,555 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 19:33:25,140 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:25,140 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 19:33:25,560 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:33:25,560 - nfl_loaders - WARNING - Skipping invalid data for season 2024
+2025-01-01 19:33:25,807 - nfl_loaders - WARNING - Roster data not found for season 2025
+2025-01-01 19:33:25,811 - nfl_loaders - WARNING - No roster data collected
+2025-01-01 19:33:25,812 - __main__ - WARNING - Empty DataFrame for nfl_rosters
+2025-01-01 19:33:25,812 - __main__ - INFO - Collecting data for: nfl_snap_counts
+2025-01-01 19:33:26,308 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:26,308 - nfl_loaders - WARNING - Skipping invalid data for season 2012
+2025-01-01 19:33:26,694 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:26,695 - nfl_loaders - WARNING - Skipping invalid data for season 2013
+2025-01-01 19:33:27,211 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:27,211 - nfl_loaders - WARNING - Skipping invalid data for season 2014
+2025-01-01 19:33:27,642 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:27,643 - nfl_loaders - WARNING - Skipping invalid data for season 2015
+2025-01-01 19:33:28,118 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:28,118 - nfl_loaders - WARNING - Skipping invalid data for season 2016
+2025-01-01 19:33:28,797 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:28,797 - nfl_loaders - WARNING - Skipping invalid data for season 2017
+2025-01-01 19:33:29,422 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:29,423 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 19:33:29,925 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:29,925 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 19:33:30,645 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:30,645 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 19:33:32,116 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:32,116 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 19:33:33,290 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:33,291 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 19:33:34,100 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:34,100 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 19:33:34,599 - nfl_loaders - ERROR - Missing required columns: {'special_teams_snaps', 'player_id'}
+2025-01-01 19:33:34,600 - nfl_loaders - WARNING - Skipping invalid data for season 2024
+2025-01-01 19:33:34,866 - nfl_loaders - WARNING - No snap count data for season 2025
+2025-01-01 19:33:34,871 - nfl_loaders - WARNING - No snap count data collected
+2025-01-01 19:33:34,871 - __main__ - WARNING - Empty DataFrame for nfl_snap_counts
+2025-01-01 19:33:34,872 - __main__ - INFO - Collecting data for: nfl_injuries
+2025-01-01 19:33:35,643 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:35,643 - nfl_loaders - WARNING - Skipping invalid injury data for season 2009
+2025-01-01 19:33:36,097 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:36,097 - nfl_loaders - WARNING - Skipping invalid injury data for season 2010
+2025-01-01 19:33:36,575 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:36,576 - nfl_loaders - WARNING - Skipping invalid injury data for season 2011
+2025-01-01 19:33:37,186 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:37,186 - nfl_loaders - WARNING - Skipping invalid injury data for season 2012
+2025-01-01 19:33:37,684 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:37,685 - nfl_loaders - WARNING - Skipping invalid injury data for season 2013
+2025-01-01 19:33:38,048 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:38,049 - nfl_loaders - WARNING - Skipping invalid injury data for season 2014
+2025-01-01 19:33:38,508 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:38,509 - nfl_loaders - WARNING - Skipping invalid injury data for season 2015
+2025-01-01 19:33:38,959 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:38,959 - nfl_loaders - WARNING - Skipping invalid injury data for season 2016
+2025-01-01 19:33:39,426 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:39,427 - nfl_loaders - WARNING - Skipping invalid injury data for season 2017
+2025-01-01 19:33:39,792 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:39,792 - nfl_loaders - WARNING - Skipping invalid injury data for season 2018
+2025-01-01 19:33:40,268 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:40,268 - nfl_loaders - WARNING - Skipping invalid injury data for season 2019
+2025-01-01 19:33:40,660 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:40,660 - nfl_loaders - WARNING - Skipping invalid injury data for season 2020
+2025-01-01 19:33:41,081 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:41,082 - nfl_loaders - WARNING - Skipping invalid injury data for season 2021
+2025-01-01 19:33:41,444 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:41,445 - nfl_loaders - WARNING - Skipping invalid injury data for season 2022
+2025-01-01 19:33:41,797 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:41,798 - nfl_loaders - WARNING - Skipping invalid injury data for season 2023
+2025-01-01 19:33:42,258 - nfl_loaders - ERROR - Missing required columns: {'injury_type', 'player_id'}
+2025-01-01 19:33:42,259 - nfl_loaders - WARNING - Skipping invalid injury data for season 2024
+2025-01-01 19:33:44,110 - nfl_loaders - WARNING - No injury data found for season 2025
+2025-01-01 19:33:44,114 - nfl_loaders - WARNING - No injury data collected
+2025-01-01 19:33:44,115 - __main__ - WARNING - Empty DataFrame for nfl_injuries
+2025-01-01 19:33:44,115 - __main__ - INFO - Collecting data for: nfl_depth_charts
+2025-01-01 19:33:46,903 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:46,903 - nfl_loaders - WARNING - Skipping invalid data for season 2001
+2025-01-01 19:33:48,296 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:48,297 - nfl_loaders - WARNING - Skipping invalid data for season 2002
+2025-01-01 19:33:48,814 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:48,815 - nfl_loaders - WARNING - Skipping invalid data for season 2003
+2025-01-01 19:33:49,211 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:49,212 - nfl_loaders - WARNING - Skipping invalid data for season 2004
+2025-01-01 19:33:49,665 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:49,665 - nfl_loaders - WARNING - Skipping invalid data for season 2005
+2025-01-01 19:33:50,158 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:50,158 - nfl_loaders - WARNING - Skipping invalid data for season 2006
+2025-01-01 19:33:50,690 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:50,690 - nfl_loaders - WARNING - Skipping invalid data for season 2007
+2025-01-01 19:33:51,106 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:51,106 - nfl_loaders - WARNING - Skipping invalid data for season 2008
+2025-01-01 19:33:51,716 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:51,717 - nfl_loaders - WARNING - Skipping invalid data for season 2009
+2025-01-01 19:33:52,154 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:52,154 - nfl_loaders - WARNING - Skipping invalid data for season 2010
+2025-01-01 19:33:52,563 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:52,564 - nfl_loaders - WARNING - Skipping invalid data for season 2011
+2025-01-01 19:33:53,097 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:53,097 - nfl_loaders - WARNING - Skipping invalid data for season 2012
+2025-01-01 19:33:53,506 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:53,507 - nfl_loaders - WARNING - Skipping invalid data for season 2013
+2025-01-01 19:33:53,980 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:53,980 - nfl_loaders - WARNING - Skipping invalid data for season 2014
+2025-01-01 19:33:54,599 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:54,600 - nfl_loaders - WARNING - Skipping invalid data for season 2015
+2025-01-01 19:33:54,988 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:54,988 - nfl_loaders - WARNING - Skipping invalid data for season 2016
+2025-01-01 19:33:55,476 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:55,476 - nfl_loaders - WARNING - Skipping invalid data for season 2017
+2025-01-01 19:33:55,987 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:55,987 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 19:33:56,471 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:56,472 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 19:33:57,058 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:57,059 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 19:33:59,735 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:33:59,735 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 19:34:00,189 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:34:00,189 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 19:34:00,697 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:34:00,697 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 19:34:01,275 - nfl_loaders - ERROR - Missing required columns: {'team', 'player_id'}
+2025-01-01 19:34:01,275 - nfl_loaders - WARNING - Skipping invalid data for season 2024
+2025-01-01 19:34:01,498 - nfl_loaders - WARNING - No depth chart data for season 2025
+2025-01-01 19:34:01,502 - nfl_loaders - WARNING - No depth chart data collected
+2025-01-01 19:34:01,502 - __main__ - WARNING - Empty DataFrame for nfl_depth_charts
+2025-01-01 19:34:01,502 - __main__ - INFO - Collecting data for: nfl_pbp_participation
+2025-01-01 19:34:02,075 - nfl_loaders - ERROR - Missing required columns: {'game_id'}
+2025-01-01 19:34:02,075 - nfl_loaders - WARNING - Skipping invalid data for season 2016
+2025-01-01 19:34:02,671 - nfl_loaders - ERROR - Missing required columns: {'game_id'}
+2025-01-01 19:34:02,671 - nfl_loaders - WARNING - Skipping invalid data for season 2017
+2025-01-01 19:34:03,353 - nfl_loaders - ERROR - Missing required columns: {'game_id'}
+2025-01-01 19:34:03,353 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 19:34:03,941 - nfl_loaders - ERROR - Missing required columns: {'game_id'}
+2025-01-01 19:34:03,941 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 19:34:04,520 - nfl_loaders - ERROR - Missing required columns: {'game_id'}
+2025-01-01 19:34:04,520 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 19:34:05,058 - nfl_loaders - ERROR - Missing required columns: {'game_id'}
+2025-01-01 19:34:05,058 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 19:34:05,581 - nfl_loaders - ERROR - Missing required columns: {'game_id'}
+2025-01-01 19:34:05,581 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 19:34:07,055 - nfl_loaders - ERROR - Missing required columns: {'game_id'}
+2025-01-01 19:34:07,055 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 19:34:07,393 - nfl_loaders - WARNING - No participation data for season 2024
+2025-01-01 19:34:07,635 - nfl_loaders - WARNING - No participation data for season 2025
+2025-01-01 19:34:07,638 - nfl_loaders - WARNING - No participation data collected
+2025-01-01 19:34:07,639 - __main__ - WARNING - Empty DataFrame for nfl_pbp_participation
+2025-01-01 19:34:07,639 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_pass
+2025-01-01 19:34:08,055 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:08,055 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 19:34:08,379 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:08,379 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 19:34:09,018 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:09,018 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 19:34:09,985 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:09,986 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 19:34:10,560 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:10,560 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 19:34:11,156 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:11,157 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 19:34:11,869 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:11,869 - nfl_loaders - WARNING - Skipping invalid data for season 2024
+2025-01-01 19:34:12,174 - nfl_loaders - ERROR - Error processing season 2025: HTTP Error 404: Not Found
+2025-01-01 19:34:12,178 - nfl_loaders - WARNING - No weekly passing data collected
+2025-01-01 19:34:12,178 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_pass
+2025-01-01 19:34:12,178 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_rush
+2025-01-01 19:34:12,992 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:12,992 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 19:34:13,870 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:13,870 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 19:34:14,859 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:14,860 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 19:34:15,453 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:15,454 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 19:34:15,810 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:15,810 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 19:34:16,129 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:16,129 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 19:34:16,728 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:16,729 - nfl_loaders - WARNING - Skipping invalid data for season 2024
+2025-01-01 19:34:16,971 - nfl_loaders - ERROR - Error processing season 2025: HTTP Error 404: Not Found
+2025-01-01 19:34:16,975 - nfl_loaders - WARNING - No weekly rushing data collected
+2025-01-01 19:34:16,976 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_rush
+2025-01-01 19:34:16,976 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_rec
+2025-01-01 19:34:17,337 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:17,337 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 19:34:17,712 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:17,712 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 19:34:18,115 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:18,115 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 19:34:18,542 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:18,543 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 19:34:18,896 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:18,897 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 19:34:19,346 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:19,347 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 19:34:19,779 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:19,780 - nfl_loaders - WARNING - Skipping invalid data for season 2024
+2025-01-01 19:34:20,015 - nfl_loaders - WARNING - No weekly receiving data found for season 2025
+2025-01-01 19:34:20,019 - nfl_loaders - WARNING - No weekly receiving data collected
+2025-01-01 19:34:20,020 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_rec
+2025-01-01 19:34:20,020 - __main__ - INFO - Collecting data for: nfl_pfr_weekly_def
+2025-01-01 19:34:20,510 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:20,510 - nfl_loaders - WARNING - Skipping invalid data for season 2018
+2025-01-01 19:34:20,948 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:20,948 - nfl_loaders - WARNING - Skipping invalid data for season 2019
+2025-01-01 19:34:21,479 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:21,479 - nfl_loaders - WARNING - Skipping invalid data for season 2020
+2025-01-01 19:34:22,266 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:22,266 - nfl_loaders - WARNING - Skipping invalid data for season 2021
+2025-01-01 19:34:22,651 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:22,651 - nfl_loaders - WARNING - Skipping invalid data for season 2022
+2025-01-01 19:34:23,118 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:23,119 - nfl_loaders - WARNING - Skipping invalid data for season 2023
+2025-01-01 19:34:23,475 - nfl_loaders - ERROR - Missing required columns: {'player_id'}
+2025-01-01 19:34:23,475 - nfl_loaders - WARNING - Skipping invalid data for season 2024
+2025-01-01 19:34:23,982 - nfl_loaders - ERROR - Error processing season 2025: HTTP Error 404: Not Found
+2025-01-01 19:34:23,987 - nfl_loaders - WARNING - No weekly defensive data collected
+2025-01-01 19:34:23,988 - __main__ - WARNING - Empty DataFrame for nfl_pfr_weekly_def
+2025-01-01 19:34:23,988 - __main__ - INFO - NFL data collection completed successfully

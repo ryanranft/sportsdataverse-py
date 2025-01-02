@@ -35,7 +35,7 @@ class TestDownload:
     # Tests that the function can download a valid URL with a very short timeout
     def test_download_valid_url_with_short_timeout(self):
         url = "https://jsonplaceholder.typicode.com/posts"
-        timeout = 0.001
+        timeout = .001
         with pytest.raises(requests.exceptions.Timeout):
             download(url, timeout=timeout)
 
