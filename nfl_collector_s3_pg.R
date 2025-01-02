@@ -23,7 +23,7 @@ collect_nfl_data_s3_pg <- function(
   db_port      = Sys.getenv("POSTGRES_PORT", "5432"),
   db_name      = Sys.getenv("POSTGRES_DB", "sportsdataverse"),
   db_user      = Sys.getenv("POSTGRES_USER", "ryanranft"),
-  db_pass      = Sys.getenv("POSTGRES_PASSWORD", "")
+  db_pass      = Sys.getenv("POSTGRES_PASSWORD", "Threespades")
 ) {
   # ---------------------------
   # 1) CONNECT TO POSTGRES
